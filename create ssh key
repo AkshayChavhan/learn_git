@@ -1,0 +1,46 @@
+go to file
+git status   to checkk initials
+git init        to initialized
+git status
+create file name  "gitignore"   like node_modules
+git add . 
+git commit -m "my first commit"
+git status 
+
+
+go to github website
+
+create new repo
+
+git remote add origin PATH
+
+ls~/.ssh  to check ssh available or not (do it in gitbash)
+
+ now need to generate ssh key
+
+ ssh-keygen -t rsa -b 4096 -C "akshaychavhan676@gmail.com"
+
+ enter
+
+ls~/.ssh        now it will return u private and local keys
+
+eval $(key -s)
+
+if you are getting agent id
+
+now we need to add it in our system
+
+ssh-add -K ~/.ssh/PRIVATEKEY  and enter        
+
+now add public key to github
+
+go to setting sshand gpg key     (cat ~/.ssh/PUBLICKEY   and copy the key and paste in github) add new then create 
+
+
+now to test is there is proper connection done or not       -T git@github.com
+
+git remote
+
+git branch
+
+git push -u  origin main
